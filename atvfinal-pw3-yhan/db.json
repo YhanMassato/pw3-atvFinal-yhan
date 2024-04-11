@@ -1,0 +1,19 @@
+{
+    "turma": [
+        {
+            "cod_turma": "1",
+            "sigla" : "1°DSN",
+            "nome" : "1° Desenvolvimento de sistemas"
+        },
+        {
+            "cod_turma": "2",
+            "sigla" : "2°DSN",
+            "nome" : "2° Desenvolvimento de sistemas"
+        },
+        {
+            "cod_turma": "3",
+            "sigla" : "2°DSN",
+            "nome" : "3° Desenvolvimento de sistemas"
+        }
+    ] 
+}

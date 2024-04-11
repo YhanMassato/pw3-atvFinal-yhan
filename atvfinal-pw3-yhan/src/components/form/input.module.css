@@ -1,0 +1,11 @@
+.form_style_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_style_input label{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+}
