@@ -1,19 +1,48 @@
 {
-    "turma": [
-        {
-            "cod_turma": "1",
-            "sigla" : "1°DSN",
-            "nome" : "1° Desenvolvimento de sistemas"
-        },
-        {
-            "cod_turma": "2",
-            "sigla" : "2°DSN",
-            "nome" : "2° Desenvolvimento de sistemas"
-        },
-        {
-            "cod_turma": "3",
-            "sigla" : "2°DSN",
-            "nome" : "3° Desenvolvimento de sistemas"
-        }
-    ] 
+  "sigla": [
+    {
+      "id_sigla": "1",
+      "sigla": "1°DSN",
+      "id": "e025"
+    },
+    {
+      "id_sigla": "2",
+      "sigla": "2°DSN",
+      "id": "8c4d"
+    },
+    {
+      "id_sigla": "3",
+      "sigla": "3°DSN",
+      "id": "de7e"
+    }
+  ],
+  "turma": [
+    {
+      "id": "e407",
+      "nome_turma": "asd",
+      "numero_turma": "1",
+      "sigla": {
+        "id": "sigla_id",
+        "sigla": "2°DSN"
+      }
+    },
+    {
+      "id": "7b64",
+      "nome_turma": "asd",
+      "numero_turma": "1",
+      "sigla": {
+        "id": "sigla_id",
+        "sigla": "3°DSN"
+      }
+    },
+    {
+      "id": "4c7b",
+      "nome_turma": "asd",
+      "numero_turma": "1",
+      "sigla": {
+        "id": "sigla_id",
+        "sigla": "1°DSN"
+      }
+    }
+  ]
 }

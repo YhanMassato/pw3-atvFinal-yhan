@@ -1,13 +1,19 @@
 .form_control{
     display: flex;
+    width: 100%;
     flex-direction: column;
     margin-bottom: 1em;
 }
 
 .form_control label{
     padding: 1px;
+    font-size: 30px;
     border-radius: 0;
     border: none;
+}
+
+.form_control select{
+    padding: 7px;
 }
 
 .form_control input select{

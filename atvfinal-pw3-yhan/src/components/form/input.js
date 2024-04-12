@@ -9,6 +9,7 @@ export default function Input({type, text, name, placeholder, handlerOnChange, v
 
             <input
                 type={type}
+                name={name}
                 id={name}
                 placeholder={placeholder}
                 onChange={handlerOnChange}
