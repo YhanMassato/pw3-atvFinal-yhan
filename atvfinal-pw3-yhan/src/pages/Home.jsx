@@ -35,20 +35,20 @@ export default function Home(){
     return(
         <section className='home-container' >
             <h1>Página de cadastro de Turma</h1>
-
-            <Input 
-                    type="text"
-                    id="nome_turma"
-                    placeholder="digite o nome da turma"
-                    text="digite o nome da turma"
-                />
-
-            <Select
-                name="sigla_id"
-                text="Selecione a sua turma"
-                options={sigla}
-                />
-
+            <form>
+                <Input 
+                        type="text"
+                        id="nome_turma"
+                        placeholder="digite o nome da turma"
+                        text="digite o nome da turma"
+                    />
+    
+                <Select
+                    name="sigla_id"
+                    text="Selecione a sua turma"
+                    options={sigla}
+                    />
+            </form>
         </section>
     )
 }
