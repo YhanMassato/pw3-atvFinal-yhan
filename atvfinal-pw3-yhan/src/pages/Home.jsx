@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Select from "../components/form/Select"
 import Input from "../components/form/input"
 import styles from "./pagesModules/home.module.css"
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Home(){
@@ -9,6 +10,7 @@ export default function Home(){
 
     const [sigla, setSigla] = useState([]);
     const [turma, setTurma] = useState({});
+    const navigate          = useNavigate();
 
     useEffect(() => {
 
@@ -57,6 +59,7 @@ export default function Home(){
         .then(
             (data) => {
                 console.log(data)
+                navigate('/turmas',{state:"Turma adicionada com sucesso"})
             })
         .catch(
             (error) => {

@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
-import Home from "./pages/Home"
+import Home   from './pages/Home'
+import Turmas from './pages/Turmas';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <Routes>
 
           <Route index element={<Home/>}/>
+
+          <Route path='turmas' element={<Turmas/>}/>
 
         </Routes>
 
