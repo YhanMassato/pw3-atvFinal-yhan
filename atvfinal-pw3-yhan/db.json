@@ -18,6 +18,24 @@
   ],
   "turma": [
     {
+      "id": "0c79",
+      "nome_turma": "Terceiro Módulo de técnico em desenvolvimento de sistemas",
+      "numero_turma": "4",
+      "sigla": {
+        "id": "sigla_id",
+        "sigla": "3°DSN"
+      }
+    },
+    {
+      "id": "be5b",
+      "nome_turma": "Primeiro Módulo de técnico em desenvolvimento de sistemas",
+      "numero_turma": "8",
+      "sigla": {
+        "id": "sigla_id",
+        "sigla": "1°DSN"
+      }
+    },
+    {
       "id": "e407",
       "nome_turma": "asd",
       "numero_turma": "1",

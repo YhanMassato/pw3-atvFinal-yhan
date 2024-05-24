@@ -1,3 +1,28 @@
-.cardName{
-    background-color: aliceblue;
+
+.card{
+    
+    background-color: goldenrod;
+    min-width: 50vw;
+    border: 1px solid black;
+    margin: 10px;
 }
+
+.cardName{
+    color:darkblue;
+    width: 100%;
+    background-color: wheat;
+}
+
+span{
+    font-weight:500 ;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+.actions{
+    padding: 10px;
+}
+
