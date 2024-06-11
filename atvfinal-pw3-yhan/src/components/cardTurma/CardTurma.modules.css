@@ -24,5 +24,29 @@ p {
 
 .actions{
     padding: 10px;
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.actions a, 
+.actions button{
+    text-decoration: none;
+    border: none;
+    background-color: #FFF;
+    color: #222;
+    padding: .6em 1em;
+    margin-right: 1em;
+    border: 1px solid #222;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: grab;
+}
+
+.actions a:hover, 
+.actions button:hover{
+    background-color: darkblue;
+    color: #FFF;
+}

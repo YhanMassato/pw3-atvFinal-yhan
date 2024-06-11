@@ -3,6 +3,8 @@ import './App.css';
 
 import Home   from './pages/Home'
 import Turmas from './pages/Turmas';
+import EditTurma from './pages/EditTurma';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
@@ -11,9 +13,15 @@ function App() {
 
         <Routes>
 
-          <Route index element={<Home/>}/>
+           <Route path='/' element={<NavBar/>}>
 
-          <Route path='turmas' element={<Turmas/>}/>
+              <Route index element={<Home/>}/>
+
+              <Route path='turmas' element={<Turmas/>}/>
+
+              <Route path='editturma/:id' element={<EditTurma/>}/>
+
+           </Route>
 
         </Routes>
 

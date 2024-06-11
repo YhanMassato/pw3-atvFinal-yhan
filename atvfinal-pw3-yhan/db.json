@@ -19,11 +19,11 @@
   "turma": [
     {
       "id": "0c79",
-      "nome_turma": "Terceiro Módulo de técnico em desenvolvimento de sistemas",
-      "numero_turma": "4",
+      "nome_turma": "Terceiro Módulo de técnico Em XD",
+      "numero_turma": "45",
       "sigla": {
         "id": "sigla_id",
-        "sigla": "3°DSN"
+        "sigla": "1°DSN"
       }
     },
     {
@@ -88,6 +88,15 @@
         "id": "sigla_id",
         "sigla": "1°DSN"
       }
+    },
+    {
+      "id": "f4b4",
+      "sigla": {
+        "id": "sigla_id",
+        "sigla": "2°DSN"
+      },
+      "nome_turma": "Turma suprema",
+      "numero_turma": "Turma n2"
     }
   ]
 }
